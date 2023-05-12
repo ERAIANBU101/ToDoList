@@ -1,0 +1,52 @@
+body{
+    background: url(pexels-johannes-plenio-1103970.jpg);
+    background-size: 100rem;
+}
+
+#title{
+    position: absolute;
+    right: 20%;
+}
+
+.contaier{
+    top: 2rem;
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    right: 42%;
+}
+
+#container{
+    color: white;
+    border: solid black;
+    position: absolute;
+    bottom: 32%;
+    right: 34%;
+    height: 40%;
+    width: 30%;
+    border-radius: 10px;
+    padding: 2rem;
+    background-color: rgba(0,0,0,.5);
+}
+
+#mark{
+    position: fixed;
+    bottom: 0;
+    right: 47.5%;
+    bottom: 3rem;
+    scale: 1.25;
+}
+
+#text{
+    color: white;
+    background-color: rgba(0,0,0,.5);
+    border: solid black;
+    scale: 1.25;
+    margin-right: 2.5rem;
+}
+
+#AddTask{
+    color: white;
+    background-color:rgba(0,0,0,.7);
+    scale: 1.25;
+}
